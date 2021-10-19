@@ -1,0 +1,181 @@
+[debug] [2021-10-19T09:24:02.934Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T09:24:02.937Z] Command:       D:\Program Files\nodejs\node.exe D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-19T09:24:02.938Z] CLI Version:   9.18.0
+[debug] [2021-10-19T09:24:02.938Z] Platform:      win32
+[debug] [2021-10-19T09:24:02.938Z] Node Version:  v16.2.0
+[debug] [2021-10-19T09:24:02.940Z] Time:          Tue Oct 19 2021 15:24:02 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T09:24:02.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T09:24:02.953Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T09:24:02.953Z] > authorizing via signed-in user (sakibulhasan159@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Users\annon\Documents\My Programming\Projects\Love Calculator 3.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-10-19T09:24:22.716Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-10-19T09:24:23.529Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-10-19T09:24:23.529Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project love-calculator-ed983 (Love Calculator) 
+[info] 
+=== Firestore Setup
+[debug] [2021-10-19T09:24:27.338Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T09:24:27.339Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T09:24:27.560Z] <<< HTTP RESPONSE 200 {"date":"Tue, 19 Oct 2021 09:24:29 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:24:27.629Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/love-calculator-ed983/services/firestore.googleapis.com  
+ 
+[debug] [2021-10-19T09:24:29.390Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:24:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:24:29.391Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/love-calculator-ed983  
+ 
+[debug] [2021-10-19T09:24:30.263Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:24:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:24:30.263Z] database_type: CLOUD_FIRESTORE
+[debug] [2021-10-19T09:24:30.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T09:24:30.264Z] > authorizing via signed-in user (sakibulhasan159@gmail.com)
+[debug] [2021-10-19T09:24:30.264Z] [iam] checking project love-calculator-ed983 for permissions ["firebase.projects.get"]
+[debug] [2021-10-19T09:24:30.265Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/love-calculator-ed983:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-10-19T09:24:31.667Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:24:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1161","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-10-19T09:24:41.183Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/love-calculator-ed983/releases?pageSize=10&pageToken=  
+ 
+[debug] [2021-10-19T09:24:42.677Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:24:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:24:42.678Z] Found ruleset: projects/love-calculator-ed983/rulesets/dfb30f2b-d557-41a3-b9f5-7604299dfdca
+[debug] [2021-10-19T09:24:42.678Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/love-calculator-ed983/rulesets/dfb30f2b-d557-41a3-b9f5-7604299dfdca  
+ 
+[debug] [2021-10-19T09:24:44.032Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:24:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:24:44.332Z] Error: EISDIR: illegal operation on a directory, open 'D:\Users\annon\Documents\My Programming\Projects\Love Calculator 3.0'
+    at Object.openSync (node:fs:583:3)
+    at Object.writeFileSync (node:fs:2144:35)
+    at Object.createFileSync (D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:43:6)
+    at Config.writeProjectFile (D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:144:12)
+    at D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\rules.js:50:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.doSetup [as firestore] (D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\index.js:35:5)
+    at async init (D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-10-19T09:24:51.736Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T09:24:51.740Z] Command:       D:\Program Files\nodejs\node.exe D:\Users\annon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-19T09:24:51.741Z] CLI Version:   9.18.0
+[debug] [2021-10-19T09:24:51.741Z] Platform:      win32
+[debug] [2021-10-19T09:24:51.741Z] Node Version:  v16.2.0
+[debug] [2021-10-19T09:24:51.742Z] Time:          Tue Oct 19 2021 15:24:51 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T09:24:51.743Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T09:24:51.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T09:24:51.756Z] > authorizing via signed-in user (sakibulhasan159@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Users\annon\Documents\My Programming\Projects\Love Calculator 3.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-10-19T09:25:01.394Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T09:25:01.395Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T09:25:01.619Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 19 Oct 2021 09:25:03 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:01.700Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-10-19T09:25:02.372Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-10-19T09:25:02.373Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project love-calculator-ed983 (Love Calculator) 
+[info] 
+=== Firestore Setup
+[debug] [2021-10-19T09:25:04.436Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T09:25:04.437Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T09:25:04.627Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 19 Oct 2021 09:25:06 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:04.682Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/love-calculator-ed983/services/firestore.googleapis.com  
+ 
+[debug] [2021-10-19T09:25:06.333Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:06.334Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/love-calculator-ed983  
+ 
+[debug] [2021-10-19T09:25:07.087Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:07.088Z] database_type: CLOUD_FIRESTORE
+[debug] [2021-10-19T09:25:07.089Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T09:25:07.089Z] > authorizing via signed-in user (sakibulhasan159@gmail.com)
+[debug] [2021-10-19T09:25:07.089Z] [iam] checking project love-calculator-ed983 for permissions ["firebase.projects.get"]
+[debug] [2021-10-19T09:25:07.090Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/love-calculator-ed983:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-10-19T09:25:08.401Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1178","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-10-19T09:25:12.297Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/love-calculator-ed983/releases?pageSize=10&pageToken=  
+ 
+[debug] [2021-10-19T09:25:13.653Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:13.654Z] Found ruleset: projects/love-calculator-ed983/rulesets/dfb30f2b-d557-41a3-b9f5-7604299dfdca
+[debug] [2021-10-19T09:25:13.655Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/love-calculator-ed983/rulesets/dfb30f2b-d557-41a3-b9f5-7604299dfdca  
+ 
+[debug] [2021-10-19T09:25:14.250Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2021-10-19T09:25:21.550Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/love-calculator-ed983/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2021-10-19T09:25:21.551Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/love-calculator-ed983/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2021-10-19T09:25:22.467Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T09:25:22.522Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 09:25:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-10-19T09:25:42.582Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-10-19T09:25:42.777Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-10-19T09:25:42.778Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.1.3","browserURL":"https://www.gstatic.com/firebasejs/9.1.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.1.3/firebase.tgz"},"live":{"version":"9.1","browserURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.1.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.1.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.1.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.1.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.1.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.1.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.1.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.1.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.1.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\Users\annon\Documents\My Programming\Projects\Love Calculator 3.0 is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=826898022&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-10-19T09:26:03.694Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"e4cd53d259c1d1a0940b","redirect_uri":"http://localhost:9005","state":"826898022"}
+[debug] [2021-10-19T09:26:04.256Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Tue, 19 Oct 2021 09:26:05 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"ff0cda4c4e466496c4d8d4c93fe3136d\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"F2B3:5684:688709:8D6EA6:616E8F2D"}
+[debug] [2021-10-19T09:26:04.280Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-10-19T09:26:04.909Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-10-19T09:26:04.909Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Sakib-TheLastCosmos","id":60128623,"node_id":"MDQ6VXNlcjYwMTI4NjIz","avatar_url":"https://avatars.githubusercontent.com/u/60128623?v=4","gravatar_id":"","url":"https://api.github.com/users/Sakib-TheLastCosmos","html_url":"https://github.com/Sakib-TheLastCosmos","followers_url":"https://api.github.com/users/Sakib-TheLastCosmos/followers","following_url":"https://api.github.com/users/Sakib-TheLastCosmos/following{/other_user}","gists_url":"https://api.github.com/users/Sakib-TheLastCosmos/gists{/gist_id}","starred_url":"https://api.github.com/users/Sakib-TheLastCosmos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Sakib-TheLastCosmos/subscriptions","organizations_url":"https://api.github.com/users/Sakib-TheLastCosmos/orgs","repos_url":"https://api.github.com/users/Sakib-TheLastCosmos/repos","events_url":"https://api.github.com/users/Sakib-TheLastCosmos/events{/privacy}","received_events_url":"https://api.github.com/users/Sakib-TheLastCosmos/received_events","type":"User","site_admin":false,"name":"Sakib UL Hasan","company":null,"blog":"","location":"Bangladesh","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":0,"following":1,"created_at":"2020-01-21T06:58:21Z","updated_at":"2021-08-18T08:31:17Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":36368,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Sakib-TheLastCosmos 
+[info] 

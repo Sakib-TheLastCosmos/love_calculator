@@ -1,0 +1,23 @@
+{
+  "name": "love-calculator",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Sakib UL Hasan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "firebase": "^9.1.1",
+    "firebase-cli": "^1.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "live-server": "^1.2.1",
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
